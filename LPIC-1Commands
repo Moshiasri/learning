@@ -20,4 +20,8 @@ chsh -s /usr/bin/zsh :: used to change the shell fro bash to zsh.
 grep <user name> /etc/passwd :: used to check the listed shell of the user.
 !$ :: represents the last argument.
 !?etc :: used to execute the last command that contains the etc 
+HISTCONTROL=erasedups :: used to delete the duplicate commands from the bash history.
+history -c :: used to clear the bash history.
+history -r :: used to readin the bash history.
+history -w :: used to append (overwrite) the bash history.
 
