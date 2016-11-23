@@ -1,0 +1,12 @@
+history :: used to check bash shell history
+pwd :: used to check the current working directory
+whoami :: used to check the used name of the current user
+lsblk :: used to check the disk usage and stats
+mount :: used to mount the external drives such as usb to the system
+wc :: used to count the words in a given phrase
+echo :: used to print out or echo out the argument sent to it in phrase
+swapon :: used to check the partition available to swap
+free :: used to check the free memory on the swap drive 
+df :: used to display the amount of disk space available on the file system containing each file name argument.
+dd :: used to copy a file, converting and formatting according to the operands.
+stat :: used to display file or file system status.
