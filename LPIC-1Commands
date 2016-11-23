@@ -10,3 +10,14 @@ free :: used to check the free memory on the swap drive
 df :: used to display the amount of disk space available on the file system containing each file name argument.
 dd :: used to copy a file, converting and formatting according to the operands.
 stat :: used to display file or file system status.
+chvt :: used to change the terminal. 
+who/w :: used to check the users logged into the system.
+tty :: used to check the current terminal.
+$SSH_ :: used to check our connection and terminal properties(under ssh connection)
+chsh -l :: used to change log in shell
+cat /ect/shell :: used to display the available shells to be used.
+chsh -s /usr/bin/zsh :: used to change the shell fro bash to zsh.
+grep <user name> /etc/passwd :: used to check the listed shell of the user.
+!$ :: represents the last argument.
+!?etc :: used to execute the last command that contains the etc 
+
