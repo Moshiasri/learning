@@ -1,0 +1,18 @@
+```bash shell
+cd /proc
+```
+
+cat version :: used to check the current version of the kernel.
+cat mounts :: used to check the mounted disks on the system.
+
+cat /proc/sys/net/ipv4/ip_forward :: used to check and change the ip forwarding of a linux machine
+
+head /etc/passwd :: here the head command is being used to check the top 10 lines of passwd file in the etc directory.
+
+tail /etc/passwd :: here the tail command is being used to check the last 10 lined of the passwd file in the etc directory
+
+tail -n 1 /etc/passwd :: here the tail command is being used to check the last 1 line of the passwd file in the etc directory
+
+tail -f /var/log/messages :: here the -f in the tail commands is being used to continuosly follow the log file and see the messages
+
+ 
