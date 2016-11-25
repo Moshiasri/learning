@@ -21,3 +21,11 @@ tail /etc/passwd :: here the tail command is being used to check the last 10 lin
 
 wc -l <$Path Variable> :: here the word count command checks in the number of words in the specified path variable files.
 
+more !$ :: used for paging through the last argument through the history
+			(backward paging is not possible)
+
+sort <File name> :: used to sort the data inside the file
+	
+	sort -r <file name> :: used to reverse sort the  data with the -r option in the file
+
+	sort -k4 <file name> :: used to sort the column in the data file with the -k option where the number after the operation defines the line number.
