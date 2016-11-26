@@ -62,6 +62,4 @@ int main()
 	print(first, "First set");
 	print(second, "Second set");
 	print(third, "Third set");
-
-	return 0;
 }
