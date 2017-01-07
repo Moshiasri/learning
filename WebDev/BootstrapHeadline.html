@@ -27,6 +27,17 @@
     </div>
 </div>
 <!-- Only include code related to java and jQuery or other scripting langs below this line -->
+  <script src="jquery.js"></script>
+
+    <!-- Then include the plug-in -->
+    <script src="jquery-plugin.js"></script>
+
+    <!-- Finally run the plug-in -->
+    <script>
+            $('div').runJqueryPlugin();
+    </script>
+
+<!-- And do it at the very end to ensure that the DOM has loaded -->
 <script>
     $(document).ready(function()
     {
@@ -34,6 +45,7 @@
     });
 
 </script>
+</body>
 
 
 
