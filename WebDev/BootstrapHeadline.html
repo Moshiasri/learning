@@ -57,7 +57,7 @@
     $("#target5").clone().append("#left-well"); //Button 5 is cloned from the left well to the right well.
     $("#target1").parent().css("background-clolor", "red");             // left-well gets a red color background.
     $("#right-well").children().css("color", "orange");                 //right-well children elements (buttons) get a orange color text                 
-
+    $(".target:nth-child(2)").addClass("animated bounce");              //the nth-child method is used to target using css selectors
 
 
     });
