@@ -123,3 +123,13 @@ var c = 12;
 a += 12;
 b += 9 ;
 c += 7;
+
+/* Like the += operator, -= subtracts a number from a variable. */
+var a = 11;
+var b = 9;
+var c = 3;
+
+// Only modify code below this line
+a -=  6;
+b -= 15;
+c -= 1;
