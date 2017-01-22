@@ -93,3 +93,7 @@ var myDecimal = 8.5;
 
 // Can perform calculations with decimal numbers, just as whole numbers
 var product = 2.5 * 2.0;
+
+// Divide one decimal by another
+
+var quotient = 4.4 / 2.0;
