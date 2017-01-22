@@ -56,5 +56,18 @@ var product = 8 * 10;
 // Divide the two numbers so the quotient is 2
 var quotient = 66 / 33;
 
+/*
+The entire line becomes i++;, eliminating the need for the equal sign.
+
+Instructions
+Changed the code to use the ++ operator on myVar.
+
+*/
+
+var myVar = 87;
+
+// Only change code below this line insted to +1 use the ++ operation
+Var = myVar ++;
+
 
 
