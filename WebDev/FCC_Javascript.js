@@ -97,3 +97,17 @@ var product = 2.5 * 2.0;
 // Divide one decimal by another
 
 var quotient = 4.4 / 2.0;
+
+/*The remainder operator % gives the remainder of the division of two numbers.
+Example
+
+5 % 2 = 1 because
+Math.floor(5 / 2) = 2 (Quotient)
+2 * 2 = 4
+5 - 4 = 1 (Remainder)
+
+*/
+// Only change code below this line
+
+var remainder;
+remainder = 10 % 4;
