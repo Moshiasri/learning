@@ -111,3 +111,15 @@ Math.floor(5 / 2) = 2 (Quotient)
 
 var remainder;
 remainder = 10 % 4;
+
+/* Operators which do both modification and evaluation (a mathematical operation and assignment) in one step. */
+
+var a = 3;
+var b = 17;
+var c = 12;
+
+// Only modify code below this line
+
+a += 12;
+b += 9 ;
+c += 7;
