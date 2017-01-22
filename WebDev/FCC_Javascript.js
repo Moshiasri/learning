@@ -14,3 +14,9 @@ var b = 2;
 
 var a = 7;
 var b = a;
+
+// Example
+var ourVar = 19;
+
+// Only change code below this line
+var a = 9;
