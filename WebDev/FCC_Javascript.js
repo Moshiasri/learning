@@ -50,8 +50,11 @@ var sum = 10 + myVar;
 // Substracting the two numbers to generate the output of 12
 var difference = 45 - 33;
 
-//Multiplying the two numbers so the output is 80
+// Multiplying the two numbers so the output is 80
 var product = 8 * 10;
+
+// Divide the two numbers so the quotient is 2
+var quotient = 66 / 33;
 
 
 
