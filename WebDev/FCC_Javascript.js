@@ -90,3 +90,6 @@ var ourDecimal = 5.7;
 
 // Only change code below this line
 var myDecimal = 8.5;
+
+// Can perform calculations with decimal numbers, just as whole numbers
+var product = 2.5 * 2.0;
