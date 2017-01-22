@@ -37,8 +37,15 @@ var studlyCapVar;
 var properCamelCase;
 var titleCaseOver;
 
-// Assignments
+// Assignments Understanding Case Sensitivity in Variables
 studlyCapVar = 10;
 properCamelCase = "A String";
 titleCaseOver = 9000;
+
+// Addition of two variables 
+var myVar = 10;
+
+var sum = 10 + myVar;
+
+
 
