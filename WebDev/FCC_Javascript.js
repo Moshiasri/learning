@@ -47,5 +47,8 @@ var myVar = 10;
 
 var sum = 10 + myVar;
 
+// Substracting the two numbers to generate the output of 12
+var difference = 45 - 33;
+
 
 
