@@ -22,7 +22,7 @@ def echo(n):
         return echo_word
 
     # Return inner_echo
-    return inner_echo()
+    return inner_echo
 
 # Call echo: twice
 twice = echo(2)
