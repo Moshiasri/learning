@@ -155,3 +155,23 @@ var c = 33;
 a /= 12;
 b /= 4;
 c /= 11;
+
+// Converting the value from celsius to fahrenheit using a temp variable to assing the new value to the same variable for calculations
+
+function convertToF(celsius) {
+  var fahrenheit;
+  // Only change code below this line
+    var cTemp = celsius;
+    fahrenheit = cTemp * (9/5) + 32;
+  
+  // Only change code above this line
+  return fahrenheit;
+}
+
+// Change the inputs below to test your code
+convertToF(0);
+convertToF(-30);
+convertToF(-10);
+convertToF(0);
+convertToF(30);
+convertToF(20);
