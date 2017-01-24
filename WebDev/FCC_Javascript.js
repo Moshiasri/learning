@@ -175,3 +175,13 @@ convertToF(-10);
 convertToF(0);
 convertToF(30);
 convertToF(20);
+
+// declaring a string which means a 'string literal' because it is a series of zero or more characters enclosed in single or double quotes.
+
+// Example
+var firstName = "Alan";
+var lastName = "Turing";
+
+// Only change code below this line
+var myFirstName = "robert";
+var myLastName = "renn";
