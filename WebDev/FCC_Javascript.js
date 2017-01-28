@@ -194,3 +194,11 @@ var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 
 // Assigning the following three lines of text into the single variable myStr using escape sequences.
 var myStr="FirstLine\n\\SecondLine\\\rThirdLine";
+
+// In JavaScript, when the + operator is used with a String value, it is called the concatenation operator. 
+// You can build a new string out of other strings by concatenating them together.
+// Example
+var ourStr = "I come first. " + "I come second.";
+
+// Only change code below this line
+var myStr ="This is the start." + "This is the end.";
