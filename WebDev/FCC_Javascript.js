@@ -221,3 +221,15 @@ var ourStr = "Hello, our name is " + ourName + ", how are you?";
 // Only change code below this line
 var myName = "Robert Renn";
 var myStr = "My name is " + myName + " and I am swell!";
+
+// Set someAdjective and append it to myStr using the += operator.
+// Example
+var anAdjective = "awesome!";
+var ourStr = "Free Code Camp is ";
+ourStr += anAdjective;
+
+// Only change code below this line
+
+var someAdjective = "awesome way to advance one's career";
+var myStr = "Learning to code is ";
+myStr += someAdjective;
