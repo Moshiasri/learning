@@ -212,3 +212,12 @@ ourStr += "I come second.";
 // Only change code below this line
 var myStr = "This is the first sentence. ";
 myStr += "This is the second sentence.";
+
+// By using the concatenation operator (+), you can insert one or more variables into a string you're building.
+// Example
+var ourName = "Free Code Camp";
+var ourStr = "Hello, our name is " + ourName + ", how are you?";
+
+// Only change code below this line
+var myName = "Robert Renn";
+var myStr = "My name is " + myName + " and I am swell!";
