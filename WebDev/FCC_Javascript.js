@@ -185,3 +185,6 @@ var lastName = "Turing";
 // Only change code below this line
 var myFirstName = "robert";
 var myLastName = "renn";
+
+// Use backslashes to assign a string to the myStr variable to print it to the console.  
+var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
