@@ -188,3 +188,6 @@ var myLastName = "renn";
 
 // Use backslashes to assign a string to the myStr variable to print it to the console.  
 var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+
+// Changed the provided string from double to single quotes and remove the escaping.
+var myStr = '<a href=\"http://www.example.com\" target=\"_blank\">Link</a>';
