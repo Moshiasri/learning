@@ -264,3 +264,14 @@ var lastName = "Lovelace";
 
 // Only change code below this line
 firstLetterOfLastName = lastName[0];
+
+// In JavaScript, String values are immutable, which means that they cannot be altered once created.
+/*  the individual characters of a string literal cannot be changed. 
+    The only way to change myStr would be to assign it with a new string */
+// Corrected the assignment to myStr to achieve the desired effect.
+// Setup
+var myStr = "Jello World";
+
+// Only change code below this line
+
+myStr = "Hello World"; // Fix Me
