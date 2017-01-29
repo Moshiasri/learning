@@ -249,3 +249,18 @@ var lastName = "Lovelace";
 // Only change code below this line.
 
 lastNameLength = lastName.length;
+
+// Bracket notation is a way to get a character at a specific index within a string.
+// Used bracket notation to find the first character in the lastName variable and assigned it to firstLetterOfLastName.
+// Example
+var firstLetterOfFirstName = "";
+var firstName = "Ada";
+
+firstLetterOfFirstName = firstName[0];
+
+// Setup
+var firstLetterOfLastName = "";
+var lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0];
