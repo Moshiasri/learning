@@ -71,3 +71,22 @@ my_character <- "universe"
 
 # Changed my_logical to be FALSE
 my_logical <- FALSE
+
+# We got an error due to a mismatch in data types? 
+# We can avoid such embarrassing situations by checking
+# the data type of a variable beforehand. We can do this
+# with the class() function, as the code on the right shows.
+
+# Declare variables of different types
+my_numeric <- 42
+my_character <- "universe"
+my_logical <- FALSE 
+
+# Check class of my_numeric
+class(my_numeric)
+
+# Check class of my_character
+class(my_character)
+
+# Check class of my_logical
+class(my_logical)
