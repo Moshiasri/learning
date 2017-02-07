@@ -87,7 +87,7 @@ total_poker <- sum(poker_vector)
 total_roulette <-  sum(roulette_vector)
 
 # Total winnings overall
-total_week <- total_poker + total_poker
+total_week <- total_poker + total_roulette
 
 # Print out total_week
 total_week
