@@ -103,7 +103,7 @@ summary(factor_survey_vector)
 speed_vector <- c("fast", "slow", "slow", "fast", "insane")
 
 # Convert speed_vector to ordered factor vector
-factor_speed_vector <- c(factor_speed_vector, ordered = TRUE, levels = c("slow","fast","insane"))
+factor_speed_vector <- c(speed_vector, ordered = TRUE, levels = c("slow","fast","insane"))
 
 # Print factor_speed_vector
 factor_speed_vector
