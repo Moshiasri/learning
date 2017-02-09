@@ -84,3 +84,28 @@ summary(survey_vector)
 
 # Generate summary for factor_survey_vector
 summary(factor_survey_vector)
+
+# speed_vector should be converted to an ordinal factor 
+# since its categories have a natural ordering. By default,
+# the function factor() transforms speed_vector into an unordered factor.
+# To create an ordered factor, we have to add
+# two additional arguments: ordered and levels.
+# 
+# factor(some_vector,
+#        ordered = TRUE,
+#        levels = c("lev1", "lev2" ...))
+# 
+# By setting the argument ordered to TRUE in the function factor(),
+# we indicate that the factor is ordered. With the argument levels
+# we give the values of the factor in the correct order.
+
+# Create speed_vector
+speed_vector <- c("fast", "slow", "slow", "fast", "insane")
+
+# Convert speed_vector to ordered factor vector
+factor_speed_vector <- c(factor_speed_vector, ordered = TRUE, levels = c("slow","fast","insane"))
+
+# Print factor_speed_vector
+factor_speed_vector
+summary(factor_speed_vector)
+
