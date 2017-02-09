@@ -89,3 +89,14 @@ worldwide_vector <- rowSums(star_wars_matrix)
 
 # Bind the new variable worldwide_vector as a column to star_wars_matrix
 all_wars_matrix <- cbind(star_wars_matrix, worldwide_vector)
+
+# Use rbind() to paste together star_wars_matrix 
+# and star_wars_matrix2, in this order. Assign the
+# resulting matrix to all_wars_matrix.
+
+# star_wars_matrix and star_wars_matrix2 are available in your workspace
+star_wars_matrix  
+star_wars_matrix2 
+
+# Combine both Star Wars trilogies in one matrix
+all_wars_matrix <- rbin(star_wars_matrix, star_wars_matrix2)
