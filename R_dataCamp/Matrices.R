@@ -99,4 +99,15 @@ star_wars_matrix
 star_wars_matrix2 
 
 # Combine both Star Wars trilogies in one matrix
-all_wars_matrix <- rbin(star_wars_matrix, star_wars_matrix2)
+all_wars_matrix <- rbind(star_wars_matrix, star_wars_matrix2)
+
+# Calculate the sum of all columns in the matrix using colSums()
+
+# all_wars_matrix is available in your workspace
+all_wars_matrix
+
+# Total revenue for US and non-US
+total_revenue_vector <- colSums(all_wars_matrix)
+
+# Print out total_revenue_vector
+total_revenue_vector
