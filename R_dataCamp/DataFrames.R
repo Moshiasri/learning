@@ -26,3 +26,21 @@ head(mtcars)
 
 # Investigate the structure of mtcars dataframe
 str(mtcars)
+
+# We construct a data frame with the data.frame() function.
+# As arguments, we pass the vectors from before: they will 
+# become the different columns of our data frame. Because 
+# every column has the same length, the vectors we pass should
+# also have the same length. But don't forget that it is possible
+# (and likely) that they contain different types of data.
+
+# Definition of vectors
+name <- c("Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune")
+type <- c("Terrestrial planet", "Terrestrial planet", "Terrestrial planet", 
+          "Terrestrial planet", "Gas giant", "Gas giant", "Gas giant", "Gas giant")
+diameter <- c(0.382, 0.949, 1, 0.532, 11.209, 9.449, 4.007, 3.883)
+rotation <- c(58.64, -243.02, 1, 1.03, 0.41, 0.43, -0.72, 0.67)
+rings <- c(FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE)
+
+# Create a data frame from the vectors
+planets_df <- data.frame(name, type, diameter, rotation, rings)
