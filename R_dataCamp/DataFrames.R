@@ -44,3 +44,6 @@ rings <- c(FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE)
 
 # Create a data frame from the vectors
 planets_df <- data.frame(name, type, diameter, rotation, rings)
+
+# Check the structure of planets_df
+str(planets_df)
