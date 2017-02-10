@@ -89,3 +89,12 @@ rings_vector <- planets_df$rings
 
 # Print out rings_vector
 rings_vector
+
+# The code below selects the name column of all planets that have rings.
+# Adapt the code so that instead of only the name column,
+# all columns for planets that have rings are selected.
+
+# planets_df and rings_vector are pre-loaded in your workspace
+
+# Adapt the code to select all columns for planets with rings
+planets_df[rings_vector, ]
