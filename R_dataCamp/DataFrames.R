@@ -96,5 +96,16 @@ rings_vector
 
 # planets_df and rings_vector are pre-loaded in your workspace
 
-# Adapt the code to select all columns for planets with rings
+# Adapted the code to select all columns for planets with rings
 planets_df[rings_vector, ]
+
+# The first argument of subset() specifies the data set for which
+# you want a subset. By adding the second argument, you give R the
+# necessary information and conditions to select the correct subset.
+
+#   Syntax:  subset(my_df, subset = some_condition)
+
+# planets_df is pre-loaded in your workspace
+
+# Select planets with diameter < 1
+subset(planets_df, subset = diameter < 1)
