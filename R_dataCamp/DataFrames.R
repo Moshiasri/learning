@@ -57,3 +57,14 @@ mercury
 # Print out data for Mars (entire fourth row)
 mars <- planets_df[4,]
 mars
+
+# Instead of using numerics to select elements of a data frame,
+# we can also use the variable names to select columns of a data frame.
+
+#   For Example: 
+#               planets_df[1:3,"type"]
+
+# The planets_df data frame from the previous exercise is pre-loaded
+
+# Select first 5 values of diameter column
+planets_df[1:5,"diameter"]
