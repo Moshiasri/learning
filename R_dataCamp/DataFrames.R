@@ -133,3 +133,10 @@ subset(planets_df, subset = diameter < 1)
 # Play around with the order function in the console
 order()
 
+# planets_df is pre-loaded in your workspace
+
+# Use order() to create positions
+positions <- order(planets_df$diameter)
+
+# Use positions to sort planets_df
+planets_df[positions, ]
