@@ -84,3 +84,20 @@ shining_list[[2]]
 # Print the second element of the vector representing the actors
 shining_list[[2]][2]
 
+# To conveniently add elements to lists you can use the c() function,
+# that you also used to build vectors:
+#   
+#   ext_list <- c(my_list , my_val)
+# This will simply extend the original list, my_list, with the component my_val.
+# This component gets appended to the end of the list. If you want to give the new list item a name,
+# you just add the name as you did before:
+#   
+#   ext_list <- c(my_list, my_name = my_val)
+
+# shining_list, the list containing movie name, actors and reviews, is pre-loaded in the workspace
+
+# We forgot something; add the year to shining_list
+shining_list_full <- c(shining_list, year = 1980)
+
+# Have a look at shining_list_full
+str(shining_list_full)
